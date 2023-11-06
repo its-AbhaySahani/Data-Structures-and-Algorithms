@@ -20,15 +20,15 @@ public:
   }
 };
 
-//int main() {
-//  Solution solution;
-//
-//  // Example usage:
-//  std::vector<int> arr = {2, 1, 3, 5, 4, 6, 7};
-//  int k = 2;
-//  int winner = solution.getWinner(arr, k);
-//
-//  std::cout << "The winner is: " << winner << std::endl;
-//
-//  return 0;
-//}
+int main() {
+  Solution solution;
+
+  // Example usage:
+  std::vector<int> arr = {2, 1, 3, 5, 4, 6, 7};
+  int k = 2;
+  int winner = solution.getWinner(arr, k);
+
+  std::cout << "The winner is: " << winner << std::endl;
+
+  return 0;
+}
