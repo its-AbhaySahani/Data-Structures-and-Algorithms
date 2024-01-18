@@ -34,11 +34,3 @@ int main() {
 
     
 }
-//Calcuate the time complexity
-/*
-The time complexity is O(n), where n is the length of the input array 'arr'.
-This is because we iterate through the array once to build the frequency map and then again to check the
-/
-//Space COmplexity
-
-
