@@ -103,3 +103,6 @@ int main() {
 
     return 0;
 }
+
+//how to print last element of linked list
+
