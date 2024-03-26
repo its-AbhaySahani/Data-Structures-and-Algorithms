@@ -11,11 +11,20 @@ def levelOrder(root):
         return
     queue = deque()
     queue.append(root)
-    
+
     while queue:
         temp = queue.popleft()
-        print(temp.data, end=' ')
+        print(temp.data, end=' ') # why we use end=' ' here? Ans: to print the output in the same line
         if temp.left:
             queue.append(temp.left)
         if temp.right:
             queue.append(temp.right)
+
+# Test the function
+root = node(1)
+root.left = node(2)
+root.right = node(3)
+root.left.left = node(4)
+root.left.right = node(5)
+
+print(levelOrder(root)) 
