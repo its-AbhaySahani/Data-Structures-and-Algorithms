@@ -29,5 +29,4 @@ root.left.left = node(4)
 root.left.right = node(5)
 root.right.left = node(6)
 root.right.right = node(7)
-print(leftView(root))
-  
+print(leftView(root))  
