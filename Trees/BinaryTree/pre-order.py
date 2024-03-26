@@ -20,5 +20,4 @@ root.right = node(3)
 root.left.left = node(4)
 root.left.right = node(5)
 
-print("Preorder traversal of binary tree is")
 printPreorder(root)
