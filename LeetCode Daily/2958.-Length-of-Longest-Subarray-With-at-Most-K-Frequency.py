@@ -1,0 +1,22 @@
+import collections
+from typing import List
+class Solution:
+  def maxSubarrayLength(self, nums: List[int], k: int) -> int:
+    ans = 0
+    count = collections.Counter()
+
+    l = 0
+    for r, num in enumerate(nums):
+      count[num] += 1
+      while count[num] == k + 1:
+        count[nums[l]] -= 1
+        l += 1
+      ans = max(ans, r - l + 1)
+
+    return ans
+# Let test the funtion 
+nums = [1,2,1,2,3]
+k = 2
+print(Solution().maxSubarrayLength(nums, k)) 
+
+        
