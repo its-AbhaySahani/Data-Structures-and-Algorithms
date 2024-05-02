@@ -1,3 +1,5 @@
+import collections
+from typing import List
 class Solution:
   def findMaxK(self, nums: List[int]) -> int:
     ans = -1
@@ -10,3 +12,8 @@ class Solution:
         seen.add(num)
 
     return ans
+
+# Lets test the function
+nums = [3, 2, -2, 5, -3]
+sol = Solution()
+print(sol.findMaxK(nums))
