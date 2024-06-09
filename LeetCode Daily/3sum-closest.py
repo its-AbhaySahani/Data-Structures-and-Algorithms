@@ -18,7 +18,7 @@ class Solution:
           right -= 1
         else:
           return total
-    return closest
+    return closest  
 
 # Test the funtions 
 nums = [-1, 2, 1, -4]
