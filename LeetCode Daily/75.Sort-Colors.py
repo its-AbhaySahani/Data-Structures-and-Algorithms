@@ -1,3 +1,5 @@
+import sys
+from typing import List
 class Solution:
   def sortColors(self, nums: List[int]) -> None:
     zero = -1
@@ -20,3 +22,8 @@ class Solution:
       else:
         two += 1
         nums[two] = 2
+
+# Lets test the soltuion
+nums = [2,0,2,1,1,0]
+Solution().sortColors(nums)
+print(nums) 
