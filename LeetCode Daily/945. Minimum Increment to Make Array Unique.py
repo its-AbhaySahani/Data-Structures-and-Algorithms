@@ -11,4 +11,6 @@ class Solution:
 
     return ans
   
-  
+# Lets test the solution
+nums = [1,2,2]
+print(Solution().minIncrementForUnique(nums)) 
