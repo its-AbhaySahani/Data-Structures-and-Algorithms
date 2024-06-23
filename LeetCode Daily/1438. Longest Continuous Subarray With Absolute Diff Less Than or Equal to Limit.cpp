@@ -27,3 +27,9 @@ class Solution {
     return ans;
   }
 };
+
+int main() {
+  Solution s;
+  vector<int> nums = {8, 2, 4, 7};
+  cout << s.longestSubarray(nums, 4) << endl;
+}
