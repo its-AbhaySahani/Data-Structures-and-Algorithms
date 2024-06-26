@@ -15,3 +15,6 @@ class Solution:
         ans = []
         backtrack()
         return ans
+    
+n = int(input())
+print(Solution().generateParenthesis(n))
