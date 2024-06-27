@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+
 using namespace std;
 class Solution {
  public:
@@ -8,3 +10,9 @@ class Solution {
                : edges[0][1];
   }
 };
+int main() {
+  Solution sol;
+  vector<vector<int>> edges = {{1, 2}, {2, 3}, {4, 2}};
+  cout << sol.findCenter(edges) << endl;
+  return 0;
+}
