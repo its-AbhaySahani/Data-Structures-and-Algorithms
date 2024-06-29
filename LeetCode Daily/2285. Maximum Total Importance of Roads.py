@@ -14,4 +14,4 @@ class Solution:
 # Let's test the solution
 n = 4
 roads = [[1, 0], [2, 0], [3, 0]]
-print(Solution().maximumImportance(n, roads)) 
+print(Solution().maximumImportance(n, roads))
