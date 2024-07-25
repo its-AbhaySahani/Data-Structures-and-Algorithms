@@ -1,3 +1,6 @@
+#include<iostream>
+#include<stdio.h>
+#include<vector>
 class Solution {
  public:
   vector<string> sortPeople(vector<string>& names, vector<int>& heights) {
